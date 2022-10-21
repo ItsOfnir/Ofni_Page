@@ -11,13 +11,13 @@ h1{
     font-family: 'Merriweather', serif;
     padding: 50px;
     text-align: center;
+    background-color: #efead5
 }
 .barra{
     display: flex;
     font-family: 'Merriweather', serif;  
     flex-direction: column;
-    background-color: rgb(255,58,58);
-    background: linear-gradient(90deg, rgba(255,58,58,1) 0%, rgba(187,187,189,1) 20%, rgba(244,244,244,1) 80%, rgba(255,58,58,1) 100%);
+    background-color: #efead5;
     font-size: 20px;
 }
 .barra1{
@@ -27,8 +27,19 @@ h1{
 }
 p{
     font-family: 'Lato', sans-serif;
-    padding: 20px
+    padding: 20px;
 }
-
-
-
+.barra2{
+    display: flex;
+    padding: 20px;
+    background-color: #efead5;
+}
+h3{
+    font-size: 100px;
+}
+.texto1{
+    font-size: 50px;
+}
+.fondo1{
+    background-color: #707173;
+}
