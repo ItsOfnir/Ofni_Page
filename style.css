@@ -7,7 +7,7 @@
     align-items: center;
 }
 
-h1{
+.titulo1{
     font-family: 'Merriweather', serif;
     padding: 50px;
     text-align: center;
@@ -27,7 +27,7 @@ h1{
 }
 p{
     font-family: 'Lato', sans-serif;
-    padding: 20px;
+    font-size: 20px;
 }
 .barra2{
     display: flex;
@@ -43,3 +43,8 @@ h3{
 .fondo1{
     background-color: #707173;
 }
+.fondo3{
+    padding: 20px;
+}
+
+
