@@ -9,7 +9,7 @@
 
 .titulo1{
     font-family: 'Merriweather', serif;
-    padding: 50px;
+    padding: 40px;
     text-align: center;
     background-color: #efead5
 }
@@ -79,7 +79,8 @@ h5{
         font-size: 25px;
     }
     svg{
-        padding: 20px;
+        width: 20%;
+        height: 20%;
     }
     .barra2{
         align-items: center;
@@ -89,7 +90,7 @@ h5{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 10px;
     background-color: #efead5;
     
 }
@@ -111,4 +112,5 @@ h2{
 }
 svg{
     padding: 10px;
+    color: black;
 }
