@@ -67,13 +67,15 @@ h5{
     p{
         font-size: 15px;
     }
-    img{
+    .box__footer img{
         width: 30%;
         height: 30%;
         justify-content: center;
         align-items: center;
     }
-    
+    .titulo1{
+        font-size: 25px;
+    }
 }
 .box__footer{
     display: flex;
@@ -81,4 +83,13 @@ h5{
     padding: 20px;
     background-color: #efead5;
     align-items: center;
+}
+.barra1 a{
+    text-decoration: none;
+}
+.barra2 a{
+    text-decoration: none;
+}
+.fondo1 a:hover{
+    color: green;
 }
