@@ -66,6 +66,8 @@ h5{
     }
     p{
         font-size: 15px;
+        justify-content: center;
+        align-items: center;
     }
     .box__footer img{
         width: 30%;
@@ -76,13 +78,20 @@ h5{
     .titulo1{
         font-size: 25px;
     }
+    svg{
+        padding: 20px;
+    }
+    .barra2{
+        align-items: center;
+    }
 }
-.box__footer{
+.box_footer{
     display: flex;
     justify-content: center;
+    align-items: center;
     padding: 20px;
     background-color: #efead5;
-    align-items: center;
+    
 }
 .barra1 a{
     text-decoration: none;
@@ -92,4 +101,14 @@ h5{
 }
 .fondo1 a:hover{
     color: green;
+}
+h2{
+    font-family: 'Merriweather', serif;
+}
+.footer2{
+    padding: 10px;
+    justify-content: space-between;
+}
+svg{
+    padding: 10px;
 }
