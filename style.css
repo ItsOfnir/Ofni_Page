@@ -36,6 +36,13 @@ p{
     justify-content: space-around;
     align-self: center;
 }
+.barra4{
+    display: flex;
+    padding: 20px;
+    background-color:white;
+    justify-content: space-around;
+    align-self: center;
+}
 h5{
     font-size: 30px;
 }
@@ -43,7 +50,8 @@ h5{
     font-size: 50px;
 }
 .fondo1{
-    background-color: #707173;
+    background-color: rgb(239,234,213);
+    background: linear-gradient(90deg, rgba(239,234,213,1) 0%, rgba(213,184,138,1) 25%, rgba(180,131,87,1) 50%, rgba(112,113,115,1) 75%, rgba(54,53,57,1) 100%);
 }
 .fondo3{
     display: flex;
@@ -53,7 +61,7 @@ h5{
 .footer{
     display: flex;
     justify-content: center;
-    padding: 50px;
+    padding: 40px;
     background-color: #efead5;
 }
 .footer2 a:hover{
@@ -126,7 +134,7 @@ svg{
     margin:0px;
     position:fixed;
     right:-130px;
-    top:230px;
+    top:250px;
     width:210px;
     z-index: 1100;
 }
@@ -168,4 +176,13 @@ svg{
     display: flex;
     justify-content: space-around;
     padding: 20px;
+}
+.borde{
+    border-radius: 21% 79% 16% 84% / 81% 21% 79% 19%;
+    padding: 20px;
+}
+.texto2{
+    padding: 40px;
+    background-color: white;
+    background-image: url(./IMG/Banner-04.jpg)
 }
